@@ -1,0 +1,85 @@
+# Data folders (too large for repository)
+data/
+raw_data/
+datasets/
+*.edf
+*.csv
+*.tsv
+*.mat
+*.joblib
+
+# Trained models and checkpoints (regenerate from code)
+models/
+checkpoints/
+*.pth
+*.pt
+*.pkl
+*.pickle
+
+# Generated figures and results (regenerate from code)
+figures/
+results/
+outputs/
+plots/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+modules/__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX build files (in thesis_template_latex folder)
+thesis_template_latex/*.aux
+thesis_template_latex/*.log
+thesis_template_latex/*.out
+thesis_template_latex/*.toc
+thesis_template_latex/*.bbl
+thesis_template_latex/*.blg
+thesis_template_latex/*.synctex.gz
+thesis_template_latex/*.fdb_latexmk
+thesis_template_latex/*.fls
+thesis_template_latex/*.bcf
+thesis_template_latex/*.run.xml
+thesis_template_latex/*.lof
+thesis_template_latex/*.lot
+
+# Keep the final PDF but ignore intermediate builds
+# thesis_template_latex/*.pdf  # Uncomment if you don't want to track the final PDF
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
